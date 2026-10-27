@@ -65,3 +65,16 @@ nav a {
 .film img:hover {
     transform: scale(1.05);
 }
+.bouton-film {
+    display: inline-block;
+    background-color: #ff4757;
+    color: white;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.bouton-film:hover {
+    background-color: #e63946;
+}
