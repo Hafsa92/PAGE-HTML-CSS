@@ -38,8 +38,30 @@ nav a {
     display: block;
 }
 .film {
-    transition: transform 0;3s ease;
+    transition: transform 0;3s ease, background-color: 0.3s ease;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 .film:hover {
     transform: translateY(-14px);
+}
+.film:hover {
+    transform: translateY(-14px);
+    background-color: #383858;
+}
+.film h3 {
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.film h3 {
+    font-weight: 700 !important;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.film img {
+    transition: transform 0.3s ease;
+}
+.film img:hover {
+    transform: scale(1.05);
 }
